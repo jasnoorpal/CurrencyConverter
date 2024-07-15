@@ -23,7 +23,6 @@ The application supports conversion between the following currencies:
 - AMD: Armenian Dram (AM)
 - ANG: Netherlands Antillean Guilder (AN)
 - AOA: Angolan Kwanza (AO)
-- AQD: Antarctic Dollar (AQ)
 - ARS: Argentine Peso (AR)
 - AUD: Australian Dollar (AU)
 - AZN: Azerbaijani Manat (AZ)
