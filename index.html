@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Currency Converter</title>
+</head>
+
+<body class="bg-[#702f5a] h-screen w-full flex items-center justify-center">
+  <div
+    class="container h-2/3 w-11/12 bg-[#f8dbb3] p-10 rounded-2xl flex items-center justify-center flex-col md:w-auto">
+    <h2 class="font-bold text-3xl text-[#b33754] mb-10">Currency Converter</h2>
+    <form class="flex flex-col items-center justify-center">
+      <div class="amount">
+        <p class="text-2xl text-[#ed4f2f] font-medium my-4">Enter Amount:</p>
+        <input value="1" type="text" class="p-4 text-2xl font-semibold rounded mb-4">
+      </div>
+      <div class="dropdown flex justify-between items-center mb-8 w-full">
+        <div class="from">
+          <p class="text-2xl text-[#ed4f2f] font-medium">From</p>
+          <div class="select-container flex items-center justify-center bg-slate-100 rounded-2xl p-1">
+            <img src="https://flagsapi.com/US/flat/64.png" class="h-12">
+            <select name="from"></select>
+          </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left mt-4"></i>
+
+        <div class="to">
+          <p class="text-2xl text-[#ed4f2f] font-medium">To</p>
+          <div class="select-container flex items-center justify-center bg-slate-100 rounded-2xl p-1">
+            <img src="https://flagsapi.com/IN/flat/64.png" class="h-12">
+            <select name="to"></select>
+          </div>
+        </div>
+      </div>
+      <div class="msg font-bold text-2xl text-center"></div>
+      <button class="h-12 w-5/6 bg-[#b33754] text-2xl font-bold text-slate-100 rounded-3xl my-8">Get Exchange
+        Rate </button>
+    </form>
+  </div>
+</body>
+<script src="codes.js"></script>
+<script src="app.js"></script>
+
+</html>
