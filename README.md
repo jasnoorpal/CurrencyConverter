@@ -187,9 +187,6 @@ There is no need to install the application as it is live and can be accessed on
 3. Click on the "Get Exchange Rate" button.
 4. The result will be displayed on the screen.
 
-## Screenshots
-
-![Currency Converter Screenshot](CurrencyConvertor.png)
 
 ## Contact
 
