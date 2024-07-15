@@ -6,7 +6,6 @@ const countryList = {
   AMD: "AM",
   ANG: "AN",
   AOA: "AO",
-  AQD: "AQ",
   ARS: "AR",
   AUD: "AU",
   AZN: "AZ",
